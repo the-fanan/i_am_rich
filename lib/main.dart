@@ -16,8 +16,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://graduate.northeastern.edu/resources/wp-content/uploads/sites/4/2019/09/iStock-1150384596-2.jpg'),
+            image: AssetImage('images/logo-white.png'),
           ),
         ),
       ),
